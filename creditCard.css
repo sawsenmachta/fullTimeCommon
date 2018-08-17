@@ -1,0 +1,106 @@
+body {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.form-control {
+  box-shadow: none;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.form-control:focus {
+  border-color: #33cabb;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=date] {
+  width: 300px;
+  padding: 15px;
+  font-size: 20px;
+  display: inline-block;
+  border: 2px;
+  background: #f1f1f1;
+  margin-left: 25%;
+  margin-right: 25%
+}
+
+.pays {
+  width: 300px;
+  padding: 15px;
+  font-size: 20px;
+  display: inline-block;
+  border: 2px;
+  background: #f1f1f1;
+  margin-left: 25%;
+  margin-right: 25%
+}
+
+.paybtn {
+  width: 300px;
+  padding: 15px;
+  display: inline-block;
+  border: 2px;
+  background-color: #33cabb;
+  margin-left: 25%;
+  margin-right: 25%
+}
+
+.achatbtn {
+  width: 300px;
+  padding: 15px;
+  display: inline-block;
+  border: 2px;
+  background-color: #33cabb;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+@media screen and (max-width: 900px) {
+  input[type=text],
+  input[type=email],
+  input[type=password],
+  input[type=date] {
+    width: 300px;
+    padding: 15px;
+    display: inline-block;
+    border: 2px;
+    background: #f1f1f1;
+    margin-left: 5%;
+    margin-right: 5%
+  }
+  .pays {
+    width: 300px;
+    padding: 15px;
+    display: inline-block;
+    border: 2px;
+    background: #f1f1f1;
+    margin-left: 5%;
+    margin-right: 5%
+  }
+  .paybtn {
+    width: 300px;
+    padding: 15px;
+    display: inline-block;
+    border: 2px;
+    background-color: #33cabb;
+    margin-left: 5%;
+    margin-right: 5%
+  }
+  .achatbtn {
+    width: 300px;
+    padding: 15px;
+    display: inline-block;
+    border: 2px;
+    background-color: #33cabb;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    text-decoration: none;
+  }
+}

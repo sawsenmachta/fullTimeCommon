@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Page Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="creditCard.css" />
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	    crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="creditCard.js"></script>
+
+</head>
+
+<body>
+    
+
+	<div class="container-fluid">
+		<div class="row">
+
+
+			<div class="register col-lg-6 ml-auto mr-auto">
+
+
+				<form class="modal-content Inscription-form col-lg-6 " style="max-width:100%;background-color: rgb(205, 230, 227);" action="#">
+
+
+					<center>
+						<h1 style="color: #33cabb;margin-top:5%">
+							<i >PAIEMENT</i>
+						</h1>
+					</center>
+
+					<br>
+
+					<input type="text" placeholder="Nom complet" id="nom" style="font-style: italic">
+					<br>
+
+					<input type="text" placeholder="Adresse" id="adresse" style="font-style: italic">
+					<br>
+
+
+					<input type="email" placeholder="Email" id="email" style="font-style: italic">
+					<br>
+
+
+
+					<input type="text" placeholder="Code postal" id="code">
+					<br>
+					<input type="text" placeholder="N° de carte" id="numero" style="font-style: italic">
+					<br>
+					<input type="date" placeholder="Date d'expiration" id="mois" style="font-style: italic">
+					<br>
+
+					<select class="pays">
+						<option value="value1"> TUNISIA </option>
+						<option value="value2"> BARCELONA </option>
+						<option value="value3"> ISTANBUL </option>
+						<option value="value4"> ROME </option>
+						<option value="value5"> MEXICO CITY </option>
+						<option value="value6"> CURITIBA</option>
+						<option value="" selected disabled hidden>CHOISIR VOTRE PAYS</option>
+					</select>
+
+
+
+
+
+
+
+					<button onclick="valider()" id="btn-pay" class="paybtn" style="margin-top: 5%;    background-color: #33cabb;font-size: 15px;color:white;font-weight: bold">Paiement</button>
+					<br>
+
+					<button id="btn-achat" class="achatbtn" style="    background-color: #33cabb;font-size: 15px;color:white;font-weight: bold">
+						<a href="page2.html" style="  color: white;
+						text-decoration: none;">Achat </a>
+					</button>
+					<br>
+
+
+			</div>
+			</form>
+
+
+
+
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
